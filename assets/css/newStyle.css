@@ -1,7 +1,12 @@
-body{font-family: 'Noto Serif KR', serif !important;}
+body{font-family: 'Noto Serif KR', serif !important;font-size:16px;}
 p,a {font-family: 'Noto Sans KR', sans-serif !important;}
+body.sbar_color_one::-webkit-scrollbar-thumb {    background: #13bfb3;
+    -webkit-box-shadow: inset 0 0 6px #13bfb3;
+    -moz-box-shadow: inset 0 0 6px #13bfb3;
+    box-shadow: inset 0 0 6px #13bfb3;}
 
 /*공통*/
+.navbar-nav .nav-item.activee>.nav-link, .navbar-nav .nav-item:active:focus>.nav-link, .navbar-nav .nav-item:active>.nav-link, .navbar-nav .nav-item:focus>.nav-link, .navbar-nav .nav-item:hover>.nav-link {    color: #13bfb3;}
 .font-light {font-weight:300;}
 .font-medium {font-weight:500;}
 .font-bold {font-weight:bold;}
@@ -18,34 +23,65 @@ p,a {font-family: 'Noto Sans KR', sans-serif !important;}
 .mt-8 {margin-top:8px;}
 .mt-16 {margin-top:16px;}
 
+
+.sbar_color_one .nav-item.dropdown>.navbar-nav {    border-top: none;}
+.nav-item.dropdown .navbar-nav.submenu {    background-color: #ffffffdb;}
+.navbar-nav .nav-item:hover>.nav-link {      color: #13bfb3;}
+.bsnav-sticky.bsnav-sticky-slide:hover {background:#ffffffd4;}
+
+
 /*메인*/
 .main-slider h1 {font-family: 'Noto Serif KR', serif !important;}
-.bsnav-sticky.bsnav-sticky-slide {position: absolute; background: transparent;}
+.bsnav-sticky.bsnav-sticky-slide {position:absolute; background: transparent;}
 .navbar-expand-lg .navbar-nav .nav-link, .navbar-nav .nav-link {font-family: 'Noto Serif KR', serif !important; font-weight: 800; color:#000;}
 .home-page-one .main-slider h1 {color:#fff}
 .home-page-one .main-slider h1 span {color:#fff}
-.home-page-one .main-slider .text {color:#fff; font-size: 18px;}
+.home-page-one .main-slider h1 span:nth-of-type(1) {font-size:55px;}
+.home-page-one .main-slider h1 span:nth-of-type(2) {color: white;  margin: 15px 0;  display: inline-block;    font-weight: 300;}
+.home-page-one .main-slider h1 span:nth-of-type(3) {color: #13bfb3;  font-weight: bold;}
+.home-page-one .main-slider .text {color: #dddddd; font-size: 28px;}
 .home-page-one .main-slider .slide {height: 90vh;}
-.main-slider h1 {padding-top: 100px;}
-.main_sect .appont_sec_inner a {font-size: 1rem;line-height: 1.5;color: #000000; font-weight: 300;font-family: 'Noto Serif KR', serif !important;}
+.main-slider h1 {padding-top: 140px;}
+.main_sect .appont_sec_inner a {font-size: 1rem;line-height: 1.5; color: #000000; font-weight: 300;font-family: 'Noto Serif KR', serif !important;}
+.sbar_color_one .view-doctors {background: #13bfb3;}
 .view-more-doctors {padding: 15px 0 15px;}
 .navbar-expand-lg .navbar-nav .nav-link, .navbar-nav .nav-link { font-size: 17px;}
-
+.owl-carousel.owl-drag .owl-item:before {    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 13;}
+.owl-carousel.owl-drag .owl-item:after {
+    content: '';   position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    height: 100%;
+    display: block;
+    background:linear-gradient(182deg,#ffffff4a,rgb(58 58 58 / 5%));
+    z-index: 13;
+    }
 /*서브*/
 .departmet_sidebar_right h1 {font-family: 'Noto Sans KR', sans-serif !important;font-weight:600;}
-.subClass .bsnav-sticky.bsnav-sticky-slide {position: relative;}
+.subClass .bsnav-sticky {position: relative;}
 /* .subClass .main-content {margin-top: 90px;} */
 .breadcrumb-item a {font-family: 'Noto Serif KR', serif !important;}
 .breadcrumb-item.active {font-weight: bold;font-size:16px;}
 .department_with_sidebar {padding: 50px 0px 70px;}
 .department_with_sidebar .working_hours {padding:15px; background: #558F3E;}
-.department_with_sidebar .working_hours img {width:100%;height:100%;}
+.department_with_sidebar .working_hours img {display: block; margin: 0 auto;}
 .contact_through {    padding: 10px 0px;background: #D4D18F;}
 .departmet_sidebar_left .department_ ul li.on a {background: #568701;  color: #fff;}
 .departmet_sidebar_left .department_ ul li a {padding:15px; color: #000;}
-.departmet_sidebar_left .department_ h2 {margin-bottom: 15px; font-weight: 600;}
+.departmet_sidebar_left .department_ h2 {font-family: 'Noto Sans KR', sans-serif !important;margin-bottom: 15px; font-weight: 700;}
 
-
+.departmet_sidebar_left {position: sticky;  top: 90px;}
 
 /*서브 슬라이드*/
 .subClass .slider-main {
@@ -74,3 +110,4 @@ p,a {font-family: 'Noto Sans KR', sans-serif !important;}
 .subClass .action a:hover{
     background:#000;
 }
+
