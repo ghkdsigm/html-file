@@ -1,0 +1,75 @@
+body{font-family: 'Noto Serif KR', serif !important;}
+p,a {font-family: 'Noto Sans KR', sans-serif !important;}
+
+/*공통*/
+.font-light {font-weight:300;}
+.font-medium {font-weight:500;}
+.font-bold {font-weight:bold;}
+.mb-4 {margin-bottom:4px;}
+.mb-8 {margin-bottom:8px;}
+.mb-16 {margin-bottom:16px;}
+.ml-4 {margin-left:4px;}
+.ml-8 {margin-left:8px;}
+.ml-16 {margin-left:16px;}
+.mr-4 {margin-right:4px;}
+.mr-8 {margin-right:8px;}
+.mr-16 {margin-right:16px;}
+.mt-4 {margin-top:4px;}
+.mt-8 {margin-top:8px;}
+.mt-16 {margin-top:16px;}
+
+/*메인*/
+.main-slider h1 {font-family: 'Noto Serif KR', serif !important;}
+.bsnav-sticky.bsnav-sticky-slide {position: absolute; background: transparent;}
+.navbar-expand-lg .navbar-nav .nav-link, .navbar-nav .nav-link {font-family: 'Noto Serif KR', serif !important; font-weight: 800; color:#000;}
+.home-page-one .main-slider h1 {color:#fff}
+.home-page-one .main-slider h1 span {color:#fff}
+.home-page-one .main-slider .text {color:#fff}
+.home-page-one .main-slider .slide {height: 90vh;}
+.main-slider h1 {padding-top: 100px;}
+.main_sect .appont_sec_inner a {font-size: 1rem;line-height: 1.5;color: #000000; font-weight: 300;font-family: 'Noto Serif KR', serif !important;}
+.view-more-doctors {padding: 15px 0 15px;}
+.navbar-expand-lg .navbar-nav .nav-link, .navbar-nav .nav-link { font-size: 17px;}
+
+/*서브*/
+.subClass .bsnav-sticky.bsnav-sticky-slide {position: relative;}
+/* .subClass .main-content {margin-top: 90px;} */
+.breadcrumb-item a {font-family: 'Noto Serif KR', serif !important;}
+.breadcrumb-item.active {font-weight: bold;}
+.department_with_sidebar {padding: 50px 0px 70px;}
+.department_with_sidebar .working_hours {padding:15px; background: #558F3E;}
+.department_with_sidebar .working_hours img {width:100%;height:100%;}
+.contact_through {    padding: 10px 0px;background: #D4D18F;}
+.departmet_sidebar_left .department_ ul li.on a {background: #568701;  color: #fff;}
+.departmet_sidebar_left .department_ ul li a {padding:15px; color: #000;}
+.departmet_sidebar_left .department_ h2 {margin-bottom: 15px;}
+
+
+
+/*서브 슬라이드*/
+.subClass .slider-main {
+    font-family:Arial;
+    width:auto;
+    display:block;
+    margin:0 auto;
+}
+.subClass .department_right_content img {margin:0 auto;}
+.subClass .slick-slide img {
+    margin:0 auto;
+}
+.subClass .action{
+    display:block;
+    margin:100px auto;
+    width:100%;
+    text-align:center;
+}
+.subClass .action a {
+    display:inline-block;
+    padding:5px 10px; 
+    background:#f30;
+    color:#fff;
+    text-decoration:none;
+}
+.subClass .action a:hover{
+    background:#000;
+}
